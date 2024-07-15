@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home</title>
+</head>
+<body>
+    {% if name %}
+        <h1>Welcome {{ name }}</h1>
+        <p>{{ message }}</p>
+    {% else %}
+        <h1>Hello</h1>
+        <p>Generic hello message.</p>
+    {% endif %}
+</body>
+</html>
